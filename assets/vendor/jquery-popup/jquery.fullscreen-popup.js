@@ -94,7 +94,7 @@
         }).appendTo(this.mainWrapper);
         return this.close = $("<a/>", {
           href: "#",
-          html: "&times;",
+          html: "&times;Close",
           "class": "" + this.options.closePopupClass,
           "style": this.options.inlineStyles ? "position: absolute; right: 2em; top: 2em;" : void 0
         }).appendTo(this.mainWrapper);
